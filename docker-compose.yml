@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  global-chat-backend:
+    build:
+      context: ./global-chat-backend
+    ports:
+      - "3001:3001"
+    restart: always
+  global-chat-front:
+    build:
+      context: ./global-chat-frontend
+    ports:
+      - "3000:3000"
+    restart: always
+    depends_on:
+      - global-chat-backend
