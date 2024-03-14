@@ -1,9 +1,17 @@
 # Global Chat Project
+
 ## Descrição
 
-Este projeto é um chat global construído com Node.js e Socket.IO para o backend, e Nginx para o frontend. O backend lida com as conexões dos usuários e as mensagens enviadas, enquanto o frontend serve a interface do usuário.
+Este projeto é um chat global construído com Node.js e Socket.IO para o backend, e Nginx para o
+frontend. O backend lida com as conexões dos usuários e as mensagens enviadas, enquanto o frontend
+serve a interface do usuário.
+
+## Screenshot
+
+<img src="./img/ss1.png">
 
 ## Como construir e executar o projeto
+
 ### Pré-requisitos
 
 - Docker
@@ -37,13 +45,12 @@ O serviço backend está escutando na porta 3001 e o serviço frontend está esc
 
 #### Backend
 
-O backend é construído com Node.js e Socket.IO. Quando um usuário se conecta, ele emite um evento “private” para o usuário com uma mensagem de boas-vindas. Quando recebe uma mensagem de um usuário, ele emite um evento “global” com a mensagem para todos os usuários conectados.
+O backend é construído com Node.js e Socket.IO. Quando um usuário se conecta, ele emite um evento
+“private” para o usuário com uma mensagem de boas-vindas. Quando recebe uma mensagem de um usuário,
+ele emite um evento “global” com a mensagem para todos os usuários conectados.
 
 #### Frontend
 
-O frontend é um servidor web Nginx que serve os arquivos estáticos gerados pelo processo de construção do Node.js.
+O frontend é um servidor web Nginx que serve os arquivos estáticos gerados pelo processo de
+construção do Node.js.
 Dockerfiles
-
-## Screenshots
-
-<img src="./img/ss1.png">
