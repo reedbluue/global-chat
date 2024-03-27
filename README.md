@@ -9,7 +9,7 @@ serve a interface do usuário.
 ## Demo
 
 <img src="./img/gc.gif" width="350" />
-<img src="./img/ss1.png" width="450">
+<img src="./img/ss1.png" width="350">
 
 ## Como construir e executar o projeto
 
