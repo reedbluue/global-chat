@@ -6,9 +6,10 @@ Este projeto é um chat global construído com Node.js e Socket.IO para o backen
 frontend. O backend lida com as conexões dos usuários e as mensagens enviadas, enquanto o frontend
 serve a interface do usuário.
 
-## Screenshot
+## Demo
 
-<img src="./img/ss1.png">
+<img src="./img/gc.gif" width="350" />
+<img src="./img/ss1.png" width="450">
 
 ## Como construir e executar o projeto
 
