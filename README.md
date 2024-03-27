@@ -8,8 +8,8 @@ serve a interface do usuário.
 
 ## Demo
 
-<img src="./img/gc.gif" width="350" />
-<img src="./img/ss1.png" width="350">
+<img src="./img/gc.gif" width="400" />
+<img src="./img/ss1.png" width="400">
 
 ## Como construir e executar o projeto
 
