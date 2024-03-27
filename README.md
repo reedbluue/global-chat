@@ -8,8 +8,10 @@ serve a interface do usuário.
 
 ## Demo
 
-<img src="./img/gc.gif" width="350" />
-<img src="./img/ss1.png" width="350">
+<video width="400" controls>
+  <source src="./img/gc.mp4" type="video/mp4">
+</video>
+<img src="./img/ss1.png" width="400">
 
 ## Como construir e executar o projeto
 
